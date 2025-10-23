@@ -28,32 +28,21 @@ body {
     margin: 10px 0;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.7);
     border: 3px solid white;
-    
   }
-    header nav {
-      margin-top: 15px;
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      flex-wrap: wrap;
-    }
-    
-    header nav a {
-      color: white;
-      background-color: #ff85b3;
-      text-decoration: none;
-      padding: 10px 18px;
-      border-radius: 25px;
-      font-weight: bold;
-      transition: all 0.3s ease; 
-    } 
-     
-     header nav a:hover {
-      background-color: white;
-      color: #ff66a3;
-      transform: scale(1.1);
-      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-      } 
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ---------- SECTION PROFIL ---------- */
   .cadre {
     max-width: 700px;
     background-color: #fff;
@@ -100,5 +89,4 @@ body {
       display: none;
     }
   }
-
   

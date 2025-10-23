@@ -29,7 +29,6 @@ body {
     width: 140px;
     height: 140PX;
   }
-  
   header img:hover {
     transform: scale(1.05);
   }
@@ -40,7 +39,6 @@ body {
     gap: 25px;
     flex-wrap: wrap;
   }
-  
   header nav a {
     color: white;
     background-color: #ff85b3;
@@ -50,7 +48,6 @@ body {
     font-weight: bold;
     transition: all 0.3s ease;
   }
-  
   header nav a:hover {
     background-color: white;
     color: #ff66a3;
@@ -75,7 +72,6 @@ body {
     justify-content: center;
     margin-top: 15px;
   }
-  
   ul.cards li {
     flex: 1 1 200px;
     padding: 10px;
@@ -87,7 +83,6 @@ body {
     font-size: 14px;
     transition: transform 0.3s ease, background 0.3s ease;
   }
-  
   ul.cards li:hover {
     background-color: #ffebf4;
     transform: translateY(-5px);
@@ -99,13 +94,11 @@ body {
     border-radius: 8px;
     overflow: hidden;
   }
-  
   th, td {
     border: 1px solid #f0e6f0;
     padding: 10px;
     text-align: center;
   }
-  
   th {
     background-color: #f8e6f0;
     color: #ff66a3;
@@ -121,12 +114,10 @@ body {
     border-top: 3px solid #ff99c8;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
   }
-  
   footer a {
     color: white;
     text-decoration: underline;
   }
-  
   footer a:hover {
     color: #ffe6f0;
   }
@@ -135,16 +126,18 @@ body {
       display: block;
       margin: 5px 0;
     }
-  
     section {
       width: 90%;
       padding: 15px;
     }
-  
     ul.cards li {
       flex: 1 1 100%;
     }
   
+
+    header img {
+      width: 100px;
+    }
   }
   
   
