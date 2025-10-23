@@ -6,16 +6,12 @@ body {
     padding: 0;
     line-height: 1.6;
   }
-  
-  /* العناوين */
   h1, h2 {
     text-align: center;
     color: #ff66a3;
     margin: 20px 0;
     font-weight: normal;
   }
-  
-  /* ===== HEADER ===== */
   header {
     text-align: center;
     padding: 25px 15px;
@@ -31,12 +27,9 @@ body {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.8);
     transition: transform 0.3s ease;
   }
-  
   header img:hover {
     transform: scale(1.05);
   }
-  
-  /* ===== NAV ===== */
   header nav {
     margin-top: 15px;
     display: flex;
@@ -44,7 +37,6 @@ body {
     gap: 25px;
     flex-wrap: wrap;
   }
-  
   header nav a {
     color: white;
     background-color: #ff85b3;
@@ -54,15 +46,12 @@ body {
     font-weight: bold;
     transition: all 0.3s ease;
   }
-  
   header nav a:hover {
     background-color: white;
     color: #ff66a3;
     transform: scale(1.1);
     box-shadow: 0 3px 8px rgba(0,0,0,0.15);
   }
-  
-  /* ===== SECTION ===== */
   section {
     max-width: 900px;
     margin: 25px auto;
@@ -72,8 +61,6 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(255, 102, 163, 0.15);
   }
-  
-  /* ===== CARDS ===== */
   ul.cards {
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +70,6 @@ body {
     justify-content: center;
     margin-top: 15px;
   }
-  
   ul.cards li {
     flex: 1 1 200px;
     padding: 10px;
@@ -95,13 +81,10 @@ body {
     font-size: 14px;
     transition: transform 0.3s ease, background 0.3s ease;
   }
-  
   ul.cards li:hover {
     background-color: #ffebf4;
     transform: translateY(-5px);
   }
-  
-  /* ===== TABLE ===== */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -109,20 +92,16 @@ body {
     border-radius: 8px;
     overflow: hidden;
   }
-  
   th, td {
     border: 1px solid #f0e6f0;
     padding: 10px;
     text-align: center;
   }
-  
   th {
     background-color: #f8e6f0;
     color: #ff66a3;
     font-weight: bold;
   }
-  
-  /* ===== FOOTER ===== */
   footer {
     text-align: center;
     padding: 20px;
@@ -133,32 +112,25 @@ body {
     border-top: 3px solid #ff99c8;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
   }
-  
   footer a {
     color: white;
     text-decoration: underline;
   }
-  
   footer a:hover {
     color: #ffe6f0;
   }
-  
-  /* ===== RESPONSIVE ===== */
   @media (max-width: 600px) {
     header nav a {
       display: block;
       margin: 5px 0;
     }
-  
     section {
       width: 90%;
       padding: 15px;
     }
-  
     ul.cards li {
       flex: 1 1 100%;
     }
-  
     header img {
       width: 100px;
     }
