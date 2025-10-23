@@ -1,0 +1,97 @@
+/* ---------- STYLE GÉNÉRAL ---------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fff0f6, #ffe6f0);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* ---------- HEADER ---------- */
+  header {
+    text-align: center;
+    background-color: #ff66a3;
+    color: white;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(255, 102, 163, 0.3);
+  }
+  
+  header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  header .photo-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.7);
+    border: 3px solid white;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ---------- SECTION PROFIL ---------- */
+  .cadre {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 102, 163, 0.2);
+    border: 2px solid #ffb6c1;
+  }
+  
+  .cadre h2 {
+    color: #ff66a3;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .cadre p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /* ---------- FOOTER ---------- */
+  footer {
+    background-color: #ff66a3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 1em;
+    box-shadow: 0 -4px 10px rgba(255, 102, 163, 0.2);
+  }
+  
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 480px) {
+    .cadre {
+      width: 85%;
+      padding: 25px;
+    }
+  
+    header h1 {
+      font-size: 1.8em;
+    }
+  
+    .cadre h2 {
+      font-size: 1.5em;
+    }
+  }
+  
